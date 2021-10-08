@@ -1,6 +1,6 @@
 import Combine
 
-protocol Task: Publisher {
+protocol Task: Publisher & AnyObject {
     var publisher: AnyPublisher<Output, Failure> { get }
 }
 

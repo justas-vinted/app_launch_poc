@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E04D6DC271054B600C3313F /* AbstractTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04D6DB271054B600C3313F /* AbstractTask.swift */; };
+		6E04D6DC271054B600C3313F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04D6DB271054B600C3313F /* Task.swift */; };
 		6EB81D68270D74E40017B6EA /* Barrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB81D67270D74E40017B6EA /* Barrier.swift */; };
 		6EF96966270C318A0082A828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96965270C318A0082A828 /* AppDelegate.swift */; };
 		6EF96968270C318A0082A828 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF96967270C318A0082A828 /* SceneDelegate.swift */; };
@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E04D6DB271054B600C3313F /* AbstractTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractTask.swift; sourceTree = "<group>"; };
+		6E04D6DB271054B600C3313F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		6EB81D67270D74E40017B6EA /* Barrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barrier.swift; sourceTree = "<group>"; };
 		6EF96962270C318A0082A828 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF96965270C318A0082A828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		6E04D6D5271047F700C3313F /* LaunchTask */ = {
 			isa = PBXGroup;
 			children = (
-				6E04D6DB271054B600C3313F /* AbstractTask.swift */,
+				6E04D6DB271054B600C3313F /* Task.swift */,
 				6E04D6D92710484B00C3313F /* SessionTask */,
 				6E04D6D82710483600C3313F /* ConsentTask */,
 				6E04D6D72710482100C3313F /* WindowTask */,
@@ -207,7 +207,7 @@
 				6EF96966270C318A0082A828 /* AppDelegate.swift in Sources */,
 				6EF96982270C45CC0082A828 /* AcceptTermsAndConditionsTask.swift in Sources */,
 				6EB81D68270D74E40017B6EA /* Barrier.swift in Sources */,
-				6E04D6DC271054B600C3313F /* AbstractTask.swift in Sources */,
+				6E04D6DC271054B600C3313F /* Task.swift in Sources */,
 				6EF96968270C318A0082A828 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
